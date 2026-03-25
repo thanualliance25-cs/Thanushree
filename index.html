@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alliance University Login</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+
+    /* College Background Image */
+    background: url('https://1drv.ms/i/c/193780b725f9ff4f/IQAX3csjgCZLSIAgMWK1R37MASun8hODir0fhGbArvdpPtE?e=RPwe2k') no-repeat center center/cover;
+}
+
+/* Login box */
+.container {
+    margin-top: 150px;
+    background: rgba(255, 255, 255, 0.85);
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Input fields */
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background: #001f4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #003080;
+}
+</style>
+
+<script>
+function login(){
+    // Directly go to dashboard
+    window.location.href = "dashboard.html";
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+    <h1>ALLIANCE UNIVERSITY</h1>
+    <h3>Login</h3>
+
+    <input type="email" placeholder="College Email">
+    <input type="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+</div>
+
+</body>
+</html>
